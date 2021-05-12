@@ -10,7 +10,7 @@ img {
 }
 
 .pic-header {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #417fc2;
 }
 
@@ -36,8 +36,13 @@ img {
     opacity: 0;
 }
 
-h1 {
+h1, h2 {
     color: #417fc2;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
 }
 
 .team, footer {
