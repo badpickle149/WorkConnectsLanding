@@ -1,7 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pic-header {
+    font-size: 2rem;
+}
+
+.pic-body-text {
+    font-size: 1.1rem;
+}
+
+#pic-container {
+    width: 90%;
+}
+
+.pic {
+    margin-bottom: 6rem;
+}
+
+.demoImgLeft, .demoImgRight {
+    opacity: 0;
 }
 
 .profile {
@@ -10,7 +34,7 @@ img {
     opacity: 0;
 }
 
-header, .team {
+header, .team, footer {
     background-color: #AEDAF9;
 }
 
@@ -29,4 +53,8 @@ header, .team {
 	100% {
 		opacity: 1;
 	}
+}
+
+.ischool-logo {
+    max-width: 10rem;
 }

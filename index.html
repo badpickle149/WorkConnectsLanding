@@ -10,6 +10,8 @@
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>WorkConnects Landing</title>
 </head>
 <body>
@@ -22,39 +24,55 @@
         </p>
     </header>
     <div class="container">
-        <div class="ml-auto mr-auto">
-            <div class="row mb-3 ml-auto mr-auto w-75">
+        <div id="pic-container" class="ml-auto mr-auto">
+            <div class="row ml-auto mr-auto pic mt-5">
                 <div class="d-flex flex-row">
-                    <img src="imgs/HomePage.png" alt="Home Page">
-                    <p class="ml-5">On the homepage, users can view their 
-                        messages and see their upcoming meetings</p>
-                </div>
-            </div>
-            <div class="row mb-3 ml-auto mr-auto w-75">
-                <div class="d-flex flex-row">
-                    <p class="mr-5">On this page users can select users to connect with!</p>
-                    <img src="imgs/ConnectPage.png" alt="Home Page">
-                </div>
-            </div>
-            <div class="row mb-3 ml-auto mr-auto w-75">
-                <div class="d-flex flex-row">
-                    <img src="imgs/Message.png" alt="Home Page">
-                    <p class="ml-5">
-                        After connecting with someone, send them a message to get to know them!
+                    <img class="demoImgLeft" src="imgs/Register.png" alt="Home Page">
+                    <p class="ml-5 pic-body-text">
+                        <span class="font-weight-bold pic-header">Make an account</span>
+                        <br />
+                        When you register, give us basic information like where you work, 
+                        job role, age, schedule, etc. We'll use this information to get you the
+                        best matches.
                     </p>
                 </div>
             </div>
-            <div class="row mb-3 ml-auto mr-auto w-75">
+            <div class="row ml-auto mr-auto pic">
                 <div class="d-flex flex-row">
-                    <p class="mr-5">
-                        Register an account to start connecting!
+                    <p class="mr-5 pic-body-text">
+                        <span class="font-weight-bold pic-header">Let us do the hard work</span>
+                        <br />
+                        A couple times a week, we'll match you with someone new. These matches will be 
+                        specially curated to you based on the information you provided us. Just sit back 
+                        and relax, we'll do all the work for you!
                     </p>
-                    <img src="imgs/Register.png" alt="Home Page">
+                    <img class="demoImgRight" src="imgs/ConnectPage.png" alt="Home Page">
+                </div>
+            </div>
+            <div class="row ml-auto mr-auto pic">
+                <div class="d-flex flex-row">
+                    <img class="demoImgLeft" src="imgs/Message.png" alt="Home Page">
+                    <p class="ml-5 pic-body-text">
+                        <span class="font-weight-bold pic-header">Get in touch</span>
+                        <br />
+                        After connecting with someone, send them a message to get to know them. 
+                        Better yet - meet up with them! We'll only match you if you both have overlapping free time.
+                    </p>
+                </div>
+            </div>
+            <div class="row ml-auto mr-auto pic">
+                <div class="d-flex flex-row">
+                    <p class="mr-5 pic-body-text">
+                        <span class="font-weight-bold pic-header">Everything you need, in one spot</span>
+                        <br />
+                        Keep track of your schedule and goals. Don't worry, everything you need is here!
+                    </p>
+                    <img class="demoImgRight" src="imgs/HomePage.png" alt="Home Page">
                 </div>
             </div>
         </div>
     </div>
-    <div class="team">
+    <div class="team pb-5 pt-3">
         <h2 class="mt-5 mb-5 text-center">WorkConnects Team</h2>
         <div class="d-flex flex-row justify-content-around w-50 ml-auto mr-auto">
             <div class="text-center d-flex flex-column">
@@ -75,6 +93,11 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="text-center pt-3 pb-3">
+            <img class="ischool-logo" src="imgs/ischool-logo.svg" alt="ischool logo" />
+        </div>
+    </footer>
     <script src="./index.js"></script>
 </body>
 </html>
