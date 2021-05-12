@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 img {
     max-width: 30rem;
     margin-left: auto;
@@ -35,8 +36,20 @@ img {
     opacity: 0;
 }
 
-header, .team, footer {
+h1 {
+    color: #417fc2;
+}
+
+.team, footer {
     background-color: #AEDAF9;
+}
+
+header {
+    background-color: #F39741;
+}
+
+#sub-header-text {
+    color: #FFFFFF;
 }
 
 .fade-in {
